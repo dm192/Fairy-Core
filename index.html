@@ -30,6 +30,14 @@
      window.$docsify = {
        // ..
         loadSidebar: true
+        pagination: {
+    previousText: '上一章节',
+    // or
+    nextText: {
+      '/': '下一章节'
+    },
+    crossChapter: true,
+    crossChapterText: true,
      };
    </script>
 
@@ -55,6 +63,7 @@
 <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 </html>
